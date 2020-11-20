@@ -1,6 +1,6 @@
 ---
 - name: ansible aws tests
-  hosts: s1
+  hosts: cent
   remote_user: app_admin
   vars:
     env_name: "null"
