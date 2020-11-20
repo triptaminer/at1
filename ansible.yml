@@ -1,0 +1,11 @@
+---
+- name: ansible aws tests
+  hosts: cent
+  remote_user: app_admin
+  vars:
+    env_name: "null"
+    usr_name: "null"
+
+  tasks:
+  - name: identification
+    shell: hostname
