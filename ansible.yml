@@ -9,3 +9,7 @@
   tasks:
   - name: identification
     shell: hostname
+  - name: id2
+    shell: id
+  - name: echo
+    shell: echo "im here :)" 
