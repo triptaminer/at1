@@ -1,7 +1,7 @@
 ---
 - name: ansible aws tests
   hosts: all
-  remote_user: app_admin
+#  remote_user: app_admin
   vars:
     env_name: "null"
     usr_name: "null"
